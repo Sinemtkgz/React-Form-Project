@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300;1,500&display=swap');
+
+* {
+  font-family: 'Raleway', sans-serif;
+
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.task-create {
+  width: 450px;
+}
+
+.task-create h3 {
+  font-weight: 500;
+}
+
+.task-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.task-label {
+  margin: 10px 0;
+}
+
+.task-input {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.task-button {
+  background-color: #6aa2aaaf;
+  color: white;
+  font-size: 20px;
+  border-radius: 10px 100px / 120px 100px;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #75769eaf;
+  font-weight: 300;
+  transition: transform 0.2s ease-in-out;
+}
+
+.task-button:hover,
+.task-delete:hover,
+.task-update:hover {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.task-show {
+  border: 1px solid #75769eaf;
+  width: 350px;
+  border-radius: 30px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.task-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.task-delete {
+  padding: 5px;
+  font-size: 15px;
+  border-radius: 10px 100px / 120px 100px;
+  width: 60px;
+  border: none;
+  background-color: rgb(187, 2, 2);
+  color: white;
+  margin-right: 10px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.task-update {
+  padding: 5px;
+  font-size: 15px;
+  border-radius: 10px 100px / 120px 100px;
+  width: 100px;
+  border: none;
+  background-color: yellowgreen;
+  color: white;
+  margin-right: 10px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.task-title {
+  margin-bottom: 5px;
+}
+
+.task-Update {
+  width: 100%;
+}
+
+.update-button {
+  background-color: #6aa2aaaf;
+}
